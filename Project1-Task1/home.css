@@ -49,3 +49,46 @@
     border-radius: 8px;
     transition: 0.8s;
   }
+
+  .container {
+    display: flex;
+    height: 100vh; /* Use 100vh to ensure the container takes the full viewport height */
+    width: 100%;
+}
+
+.left-half, .right-half {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.left-half {
+    /* background-color: #f0f0f0; */
+    width: 60%;
+}
+
+.right-half {
+    /* background-color: #c0c0c0; */
+    width: 40%;
+}
+
+.right-half img{
+  height: 70vh;
+  width: 80%;
+}
+.salsa-regular {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+}
+.skill-header{
+  justify-content: center;
+}
