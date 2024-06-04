@@ -19,15 +19,17 @@
       href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&family=Salsa&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <nav class="navbar">
       <label class="logo lobster-regular">Yash</label>
       <ul class="nav-list">
-        <li><a class="active" href="">Home</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Project</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a class="navlist" href="">Home</a></li>
+        <li><a class="navlist" href="#">Skills</a></li>
+        <li><a class="navlist" href="#">Project</a></li>
+        <li><a class="navlist" href="#">Contact Me</a></li>
       </ul>
     </nav>
     <div>
@@ -54,16 +56,20 @@
               Let's connect and explore how we can create something amazing
               together!
             </p>
+            <br>
           </div>
         </div>
         <div class="right-half">
-          <!-- <p>This is the right half.</p> -->
           <img src="./images/profile_pic.png" alt="profile_pic" />
         </div>
       </div>
     </div>
 
     <!-- Skills Section -->
+
+  <div class="skill-header container">
+    <h1 class="skill-head">Key-Skills</h1>
+  </div>
     <div class="card-container">
       <div class="card card-1">
         <img src="./images/html.png" alt="Card image" />
@@ -129,21 +135,68 @@
       </div>
     </div>
 
-    <!-- Project Section -->
-    <div class="card-container">
-      <div class="card card-1">
+     <!-- Project Section --> 
+      <div class="skill-header container">
+        <h1 class="skill-head">Projects Section</h1>
+      </div>
+
+   <div class="project-container">
+
+      <div class="card project">
         <img src="./images/html.png" alt="Card image" />
         <div class="card-body">
-          <h3 class="card-title">HTML</h3>
+          <h3 class="card-title">Title</h3>
+          <button class="code-btn"><a href="#">Code</a></button>
         </div>
       </div>
 
-      <div class="card-container">
-        <div class="card card-1">
+      <div>
+        <div class="card project">
           <img src="./images/html.png" alt="Card image" />
           <div class="card-body">
-            <h3 class="card-title">HTML</h3>
+            <h3 class="card-title">Title</h3>
+            <button class="code-btn"><a href="#">Code</a></button>
           </div>
         </div>
+
+        <div>
+          <div class="card project">
+            <img src="./images/html.png" alt="Card image" />
+            <div class="card-body">
+              <h3 class="card-title">Title</h3>
+              <button class="code-btn"><a href="#">Code</a></button>
+            </div>
+          </div>
+
+          <div>
+            <div class="card project">
+              <img src="./images/html.png" alt="Card image" />
+              <div class="card-body">
+                <h3 class="card-title">Title</h3>
+                <button class="code-btn"><a href="#">Code</a></button>
+              </div>
+            </div>
+            <!-- below div eending for card container -->
+          </div> 
+        <!-- Resume Section -->
+        <div class="resume-container">
+     <h3>Resume</h3>
+        <div>
+            <div class="container">
+              <div class="left-half rs">
+                <h2>
+                 Learn more about my qualification and experience
+                </h2>
+                <br>
+                <div class="btn-container">
+                <button class="resume-btn" onclick="window.location.href='Resume-Yash.pdf';" download="Resume.pdf">Download My Resume<i class="fa fa-download"></i></button></div>
+              </div>
+              <div class="right-half">
+               <img class="resume-img" src="https://images.pexels.com/photos/5989925/pexels-photo-5989925.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
   </body>
 </html>

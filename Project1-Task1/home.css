@@ -43,7 +43,7 @@
     padding: 10px;
   }
 
-  .active,a:hover{
+  .navlist, .nav-list a:hover{
     background-color: rgb(95, 95, 95);
     border: none;
     border-radius: 8px;
@@ -93,8 +93,18 @@
 /* Skills Section */
 .skill-header{
   justify-content: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  padding: auto;
+  margin: auto;
 }
 
+/* .skill-head{
+  padding: 20px;
+  margin: auto;
+} */
 
 .card-container {
   display: grid;
@@ -111,6 +121,8 @@
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
+  width: 300px;
+  height: 350px;
 }
 
 .card img {
@@ -175,4 +187,51 @@
 
 .card-9 {
   box-shadow: 0 4px 8px #00758f; /* Purple */
+}
+
+.project{
+  box-shadow: 0 3px 7px #444444;
+}
+
+.code-btn{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 50%;
+}
+.code-btn:hover{
+  cursor: pointer;
+  background-color: rgb(11, 11, 115);
+}
+
+.code-btn a{
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+.resume-img{
+  width: 80%;
+  height: 80vh;
+}
+
+.btn-container{
+  display: block;
+}
+.rs{
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-btn{
+width: 100%;
+height: 50px;
+padding: 10px;
+background-color: rgba(255, 0, 0, 0.829);
+color: white;
+border: none;
+border-radius: 5px;
 }
