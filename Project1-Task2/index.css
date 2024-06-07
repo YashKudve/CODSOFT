@@ -325,3 +325,11 @@ header {
 .footer-box li a {
   color: white;
 }
+.cr {
+  align-items: center;
+  background-color: rgb(63, 36, 0);
+  color: white;
+}
+.cr p {
+  margin-left: 500px;
+}
