@@ -101,6 +101,9 @@ header {
 }
 
 .search-box.active {
+  top: 110%;
+  box-shadow: var(--box-shadow);
+  transition: 0.2s all linear;
 }
 
 .search-box input {
