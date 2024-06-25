@@ -23,3 +23,58 @@
   overflow: hidden;
   /* color: white; */
 }
+
+.display {
+  min-height: 200px;
+  padding: 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  text-align: right;
+  flex: 1 1 0%;
+}
+
+.display .input {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.display .output {
+  font-size: 3rem;
+  font-weight: 700;
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.display .operator {
+  color: red;
+  /* EB6666 */
+}
+
+.display .bracket,
+.display .percent {
+  color: aqua;
+  /* 26FED7 */
+}
+
+.keys {
+  background-color: rgb(124, 119, 119);
+  /* 292D36 */
+  padding: 1.5rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1rem;
+  box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.2);
+}
+
+.keys .key {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  height: 0;
+  padding-top: 100%;
+}
